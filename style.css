@@ -15,7 +15,7 @@ p {
 
 
 
-body, button, input[type=text], input[type=password], h1 {
+body, button, input[type=text], input[type=password], h1, textarea {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
@@ -27,6 +27,10 @@ h1 {
 
 }
 
+
+
+table {width: 100%; margin-top:20px;}
+td {padding: 15px; text-align: center}
 
 button {
 	background: #34C0E2;
@@ -44,7 +48,7 @@ button:hover {
 }
 
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], textarea {
 	padding: 8px;
 	border: 1px solid #EEEFF2;
 	border-radius: 8px;
@@ -53,6 +57,12 @@ input[type=text], input[type=password] {
 	outline: none;
 
 
+}
+
+
+textarea {
+	height: 250px;
+	resize: none;
 }
 
 
@@ -83,6 +93,24 @@ input[type=text], input[type=password] {
 
 
 }
+
+
+.reviews {
+
+	background: #F1F6FC;
+	color: #000;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+
+
+.reviews span {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
 
 
 
