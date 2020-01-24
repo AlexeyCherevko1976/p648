@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0}
+
+
+a {text-decoration: none}
+
+.wrapper, .content, .menu, body, html {
+	height: 100%;
+}
+
+
+
+
+.wrapper {
+	display: flex;
+}
+
+
+
+.content {
+	flex: 1;
+	padding: 40px;
+	background: #FCFCFD;
+}
+
+
+.block {
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #EEEFF2;
+
+
+
+}
+
+
+
+.menu {
+	width: 200px;
+	background: #464E78;
+}
+
+
+
+.menu a {
+	display:
+	block; color: #fff;
+	padding: 10px;
+
+}
